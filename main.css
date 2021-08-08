@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+/* === Header styles === */
+
+.cover {
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg) no-repeat center/cover;
+  background-size: cover;
+  font-family: "Libre-baskerville", serif;
+  text-align: center;
+  color: hsla(0,0%,100%,.9);
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
+.full {
+  vertical-align: middle;
+  display: table-cell;
+}
+.text {
+  background-color: hsla(100,0%,0%,.6);
+}
+.headline {
+  font-family: "Great Vibes", cursive;
+  color: #d2ba87;
+}
